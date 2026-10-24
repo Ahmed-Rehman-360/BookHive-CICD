@@ -1,0 +1,14 @@
+# Ignore uploaded images (keep folder structure)
+uploads/*
+!uploads/.gitkeep
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore environment/config files with sensitive info (if any)
+config.php
