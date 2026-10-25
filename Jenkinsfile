@@ -9,7 +9,12 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building Docker images for frontend and backend...'
-                sh 'docker compose build'
+                //sh 'docker compose build'
+                sh '''
+                docker compose build
+                docker tag bookhive-backend:latest bookhive-backend:v${BUILD_NUMBER}
+                docker tag bookhive-frontend:latest bookhive-frontend:v${BUILD_NUMBER}
+                '''
             }
         }
 
