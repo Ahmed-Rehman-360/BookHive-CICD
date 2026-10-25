@@ -25,8 +25,8 @@
         </div>
         <hr>
         <div class="text-center">
-            <!-- <p>&copy; 2025 Book Hive. All Rights Reserved.</p> -->
-            <p>&copy; 2024 Book Hive v2 - Deployed via Jenkins CI/CD. All Rights Reserved.</p>
+            <p>&copy; 2025 Book Hive. All Rights Reserved.</p>
+            <!-- <p>&copy; 2024 Book Hive v2 - Deployed via Jenkins CI/CD. All Rights Reserved.</p> -->
         </div>
     </div>
 </footer>
